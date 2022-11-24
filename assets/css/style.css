@@ -46,7 +46,7 @@ li {
 
 .header {
     background-image: url(/assets/images/header-bg.webp);
-    height: 100vh;
+    height: 625px;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -104,7 +104,7 @@ li {
 .courses {
     padding-top: 100px;
     background-color: #F1F9FF;
-    height: 135vh;
+    height: 800px;
 }
 
 .courses_heading h1 {
