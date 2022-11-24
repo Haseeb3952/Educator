@@ -1,0 +1,281 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    margin: 0%;
+    color: #777777;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.top_heading h1 {
+    padding-top: 100px;
+}
+
+.btn {
+    color: #fff;
+    padding: 10px 30px;
+    background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+    border: none;
+    transition: 0.9s;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #0056b3;
+}
+
+.rocket img {
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+}
+
+.header {
+    background-image: url(/assets/images/header-bg.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.nav-link {
+    transition: 0.3s;
+}
+.nav-link:hover {
+    color: #fff !important;
+}
+
+.search_bar {
+    background-color: #fff;
+    padding: 5px 6px;
+}
+
+.search_bar input {
+    width: 100%;
+    outline: none;
+    border: 0;
+    margin-left: 20px;
+}
+
+.courses-btn {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 5px;
+    font-size: 13px;
+    padding: 3px 0px;
+   
+}
+
+.courses-btn:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.about {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.about_image img {
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+}
+
+.about_heading h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.courses {
+    padding-top: 100px;
+    background-color: #F1F9FF;
+    height: 135vh;
+}
+
+.courses_heading h1 {
+    font-size: 2.5rem;
+    padding-top: 200px !important;
+}
+
+.btn-explore {
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    transition: ease all 0.5s;
+}
+
+.btn-explore:hover {
+    color: #fff;
+    background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+}
+
+.courses-right {
+    background-color: #fff;
+    height: 590px;
+}
+
+.courses-name {
+    border: none;
+    background-color: #f7fafc;
+    color: #777777;
+    transition: all ease 0.5s;
+}
+
+.courses-name:hover {
+    color: #fff;
+    background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+}
+
+.cards {
+    padding: 40px;
+    background-color: #f1f9ff;
+    transition: all 0.3s ease;
+}
+
+.cards img {
+    height: 40px;
+    width: 40px;
+}
+
+.cards:hover {
+    background-color: #fff;
+    box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 8%);
+}
+
+.faculty {
+    background-color: #f1f9ff;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.faculty_heading h1 {
+    padding-top: 130px;
+}
+
+.member_pic img {
+    margin-top: 100px;
+    margin-bottom: -30px;
+}
+
+.members_info {
+    background-color: #fff;
+    padding: 30px;
+    height: 300px;
+    padding-top: 50px;
+}
+
+.members_info * {
+    color: #777777;
+    transition: all 0.3s ease;
+}
+
+.members_info i:hover {
+    color: #000;
+}
+
+.item h1 {
+    font-size: 70px;
+    color: #e6e6e6;
+}
+
+.carousel_img_holder{
+    height: 80px;
+    width: 80px;
+}
+
+
+.carousel_img_holder img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #283367;
+    padding: 100px 0px;
+}
+
+.email-address {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.email-address input {
+    border: none;
+    width: 80%;
+    padding-left: 20px;
+}
+
+.email-address input:focus {
+    outline: none;
+}
+
+.arrow {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+}
+
+.list-items li a {
+    color: #777777;
+    transition: 0.3s;
+}
+
+.list-items li a:hover {
+    color: #fff;
+}
+
+.name {
+    color: #39cfca;
+}
+
+.name:hover {
+    color: #39cfca;
+}
+
+.fb {
+    height: 40px;
+    width: 40px;
+    background-color: #3e4876;
+    transition: all 0.3s ease;
+}
+
+.fb:hover {
+    background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+}
+
+
+@media screen and (max-width: 768px) {
+    .top_heading h1 {
+        padding-top: 100px !important;
+    }
+    .search {
+        margin-top: 50px;
+    }
+    .features {
+        margin-top: 750px;
+    }
+    .courses_heading h1 {
+        padding-top: 0px !important;
+    }
+}
