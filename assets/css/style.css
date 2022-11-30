@@ -1,3 +1,4 @@
+
 body {
     margin: 0%;
     padding: 0%;
@@ -269,11 +270,17 @@ footer {
     .top_heading h1 {
         padding-top: 100px !important;
     }
+    .header {
+        height: 700px;
+    }
     .search {
         margin-top: 50px;
     }
     .features {
         margin-top: 750px;
+    }
+    .courses-right {
+        padding-bottom: 5000px;
     }
     .courses_heading h1 {
         padding-top: 0px !important;
